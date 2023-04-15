@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="moviesCategoryDataAdapter"
+            type="com.androidengineer.tmdbapp.presentation.adapters.MovieCategoryDataAdapter" />
+    </data>
+
+<androidx.recyclerview.widget.RecyclerView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:adapter="@{moviesCategoryDataAdapter}"
+    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+    android:layout_height="match_parent"
+    tools:context=".presentation.fragments.MoviesCategoryDataFragment"/>
+
+</layout>

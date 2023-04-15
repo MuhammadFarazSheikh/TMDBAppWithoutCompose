@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TMDB App</string>
+    <string name="text_movies">Movies</string>
+    <string name="text_tv_shows">Tv Shows</string>
+    <string name="api_base_url">https://api.themoviedb.org/3/</string>
+    <string name="image_base_url">https://image.tmdb.org/t/p/w300</string>
+    <string name="text_language">Language:</string>
+    <string name="text_title">Title:</string>
+    <string name="text_release_date">Release Date:</string>
+    <string name="text_overview">Overview:\n</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_share_app">Share App</string>
+    <string name="text_rate_app">Rate App</string>
+    <string name="text_popular_tab">Popular</string>
+    <string name="text_nowplaying_tab">Now Playing</string>
+    <string name="text_upcoming_tab">Upcoming</string>
+    <string name="text_toprated_tab">Top Rated</string>
+</resources>
